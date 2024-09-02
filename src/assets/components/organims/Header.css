@@ -1,0 +1,11 @@
+.container {
+    background-color: black;
+    height: 4em;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: white; 
+}
