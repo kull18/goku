@@ -1,13 +1,14 @@
 import './Card.css'
-function Card() {
+function Card({ data }) {
     return(
         <div className='container'>
             <div>
                 <label>name</label>
             </div>
             <div>
-                <label></label>
-                <label></label>
+                <label>{data.name}</label>
+                <label>{data.ki}</label>
+                <label>{data.maxki}</label>
             </div>
         </div>
     )
