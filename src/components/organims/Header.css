@@ -1,6 +1,6 @@
-.container {
-    background-color: black;
-    height: 4em;
+.header {
+    background-color: white;
+    height: 20%;
     display: flex; 
     justify-content: center;
     align-items: center;
